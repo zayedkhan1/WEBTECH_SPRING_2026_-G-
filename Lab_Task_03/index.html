@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task-03 : Form validatoin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">From validation</h1>
+
+
+    <form class="form" onsubmit="return validateForm()">
+       
+        <label class="input_level" for="email">Email</label>
+        <input class="input" type="email" name="email" id="email" placeholder="Enter your email">
+       
+
+        
+        <label  class="input_level" for="password">Passowrd</label>
+        <input class="input" type="password" name="password" id="password" placeholder="Enter password"> 
+       
+        <p id="error" style="color:red;"></p>
+
+        <button class="btn">Submit</button>
+
+
+
+    </form>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
